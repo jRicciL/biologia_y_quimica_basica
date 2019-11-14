@@ -1,0 +1,301 @@
+body{
+	background-color: #ddd;
+	margin: 30px 100px 0 100px;
+	font-family: Arial;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #ddd;
+}
+
+#InstructionsDiv{
+	color: #888;
+	margin-top: 8px;
+	font-size: 90%;
+}
+
+.ExerciseTitle{
+		font-family: coolvetica_rg, Sans;
+		font-size:32px;
+		margin: 10px 0 0 0;
+		background-color: #0F5972;	
+		text-align: center;
+		color: white;
+		height: 45px;
+}
+
+#textoReducido{
+	font-size: 73%;
+	margin-left: 10px;
+}
+
+.ExerciseTitleF{
+		font-family: coolvetica_rg, Sans;
+		font-size:32px;
+		margin: 10px 0 0 0;
+		background-color: #7A5E40;	
+		text-align: center;
+		color: white;
+		height: 45px;
+}
+
+.MCAnswers{
+	line-height: 25px;
+	color: #666;
+}
+
+
+li{
+	margin-top: 15px;
+}
+
+.QuestionText{
+	color: #786039;
+	font-weight: bold;
+}
+
+div.QuestionNavigation{
+	text-align: center;
+}
+
+.QNum{
+	font-family: coolvetica_rg, Sans;
+	margin: 0em 1em 0.5em 1em;
+	vertical-align: middle;
+	background-color: #CE1A35;
+	color: #fff;
+	padding: 4px;
+	font-size: 130%;
+}
+
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #7f7f7f;
+	border-bottom-color: #7f7f7f;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+#ShowMethodButton{
+	position: fixed;
+	z-index: 0;
+	margin-left: 455px;
+	top: 150px;
+	overflow: hidden;
+	text-align: right;
+	width: 180px;
+}
+
+#imagenCuestionario{
+	margin-left: 50px;
+}
+
+#imagenCuestionario2{
+	margin-left: 50px;
+	margin-right: 30px;
+	padding-top: 15px;
+	float: left;
+}
+
+.shadow{
+	z-index: 2;
+	}
+
+#NextQButton, #PrevQButton{
+	border: 0px;
+	text-align: center;
+	color: #F80732;
+	background-color: #eee;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	font-size:80%;
+}
+
+.QuestionText{
+	color: #2F5881;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-size: 110%;
+}
+
+.QuestionNavigation{
+	text-align: center;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.QNum{
+
+	font-family: coolvetica_rg, Sans;
+	margin: auto 1em auto 1em;
+	position: relative;
+	background-color: #888;
+	color: #fff;
+	padding: 4px;
+	font-size: 80%;
+	height: 100px;
+	text-align: center;
+}
+
+
+.FuncButton {
+	text-align: center;
+	color: #fff;
+	background-color: #01698B;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	border: 0px;
+}
+
+.FuncButtonUp {
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #CBE0E2;
+	color: #0D303E;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	border: 0px;
+}
+
+.FuncButtonDown {
+	color: #FFFFFF;
+	text-align: center;
+	border-style: solid;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	border: 0px;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 300px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+#centrar{
+	text-align: center;
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #7f7f7f;
+	border-bottom-color: #7f7f7f;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #0000FF;
+}
+
+a:visited{
+	color: #0000CC;
+}
+
+a:hover{
+	color: #0000FF;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: Geneva,Arial,sans-serif;
+	font-size: 100%;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: #FFFFFF;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+}
+
+.rtl{
+	text-align: right;
+	font-size: 140%;
+}
